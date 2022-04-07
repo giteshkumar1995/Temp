@@ -1,0 +1,406 @@
+/*CSS for menu bar*/
+html
+{
+	scroll-behavior: smooth;
+}
+#over
+{
+	overflow-x: hidden;
+}
+.menu ul
+{
+	background: #c9d2d7;
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li
+{
+	display: inline-block;
+}
+.menu ul li a
+{
+	position: relative;
+	text-decoration: none;
+	padding: 15px;
+	padding-left: 50px;
+	font-size: 23px;
+	font-family: arial;
+	color: darkslategray;
+	border-radius:30px;
+	display: block;
+}
+.menu a:hover
+{
+	background: white;
+	color: darkslategray;
+}
+.search
+{
+	margin-left: 100px;
+}
+.search input
+{
+	width: 280px;
+	height: 38px;
+	border-radius: 5px;
+}
+.search button
+{
+	height: 38px;
+	border-radius: 5px;
+	width: 70px;
+}
+
+/*CSS for body*/
+.font
+{
+	font-family: arial;
+}
+.one
+{
+	background: white;
+}
+.heading
+{
+	margin: 20px;
+	position: relative;
+	left: 200px;
+}
+.one img
+{
+	height: 700px;
+	width: 100%;
+}
+.two
+{
+	box-shadow: -25px 25px 30px dimgray;
+	border:4px solid white ;
+	display: inline-block;
+	position: absolute;
+	left:55% ;
+	top: 250px;
+	height: 300px;
+	width:400px;
+	padding: 15px;
+}
+.two h1
+{
+	font-size: 50px;
+}
+.two p
+{
+	font-size: 20px;
+}
+.flex
+{
+	display: flex;
+	margin: 25px;
+}
+.flex1
+{
+	flex: 40%;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+.flex1 p
+{
+	text-align: justify;
+	font-size: 17px;
+	line-height: 30px;
+}
+.flex2
+{
+	flex: 60%;
+}
+.flex2 img
+{
+	position: relative;
+	height: 250px;
+	width: 280px;
+	right: -200px;
+	filter: brightness(.5);
+	transition: ease-in .5s;
+}
+.flex2 img:hover
+{
+	filter: brightness(1.0);
+}
+
+/*CSS for technologies*/
+
+#tech div
+{
+	position: relative;
+	left: 200px;
+	display: inline-block;
+	background:#c9d2d7;
+	width: 20%;
+	margin: 20px;
+	padding: 10px;
+	color: white;
+	height: 370px;
+	font-family: arial;
+}
+#tech i
+{
+	position: relative;	
+	top: 35px;
+	font-size: 50px;
+	left: 10px;
+}
+#tech span
+{
+	position: relative;	
+	top: 30px;
+	left: 25px;
+	font-size: 30px;
+}
+#tech p
+{
+	position: relative;	
+	top: 25px;
+	line-height: 25px;
+	padding: 30px;
+	text-align: justify;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+#tech div:hover
+{
+	background: white;
+	color: black;
+}
+
+/*CSS for achivement*/
+
+.tesla
+{
+	display: flex;
+	margin: 50px;
+}
+.tesla1
+{
+	flex: 45%;
+	margin-left: 130px;
+}
+.tesla1 img
+{
+	box-shadow: -23px 23px 30px dimgray;
+	height: 600px;
+	width: 550px;
+}
+.tesla2
+{
+	flex: 55%;
+	margin: 50px;
+}
+.tesla2 p
+{
+	line-height: 30px;
+	text-align: justify;
+	width: 500px;
+	height: 300px;
+	font-size: 16px;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+.tesla2 button
+{
+	font-size: 15px;
+	margin: 40px;
+	padding: 8px;
+}
+.cars
+{
+	margin-left: 28px;
+}
+.cars div
+{
+	display: inline-block;
+}
+.cars div img
+{
+	height: 280px;
+	width: 330px;
+	margin: 15px;
+}
+.cars div img:hover
+{
+	animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -1px) rotate(-1deg); }
+  20% { transform: translate(1px, 0px) rotate(1deg); }
+  30% { transform: translate(-1px, 1px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(-1deg); }
+  50% { transform: translate(-1px, 0px) rotate(1deg); }
+  60% { transform: translate(1px, 1px) rotate(0deg); }
+  70% { transform: translate(-1px, -1px) rotate(-1deg); }
+  80% { transform: translate(1px, 0px) rotate(1deg); }
+  90% { transform: translate(-1px, 1px) rotate(0deg); }
+  100% { transform: translate(1px, -1px) rotate(-1deg); }
+}
+
+/*CSS for RPA*/
+
+.new
+{
+	display: flex;
+	margin-top: 10px;
+}
+.new1
+{
+	flex: 50%;
+	background: darkslategray;
+	color: white;
+	height: 600px;
+}
+.new1 div
+{
+	margin-top: 20px;
+	margin-left: 250;
+	width: 500px;
+	text-align: left;
+	padding: 40px;
+	line-height: 24px;
+	word-spacing: 1px;
+}
+.new1 p
+{	
+	font-size: 17px;
+	text-align: justify;	
+	font-style: italic;
+	margin-top: 20px;
+}
+.new2
+{
+	flex: 50%;
+	background: #c9d2d7;
+	color: white;
+	height: 500px;
+	text-align: left;
+	padding: 50px;
+}
+.new2 div
+{
+	border: 4px solid white;
+	text-align: right;
+	padding: 70px;
+	width: 400px;
+	height: 180px;
+	word-spacing: 3px;
+	margin-left: -80px;
+	margin-top: 70px;
+}
+.new2 div p
+{
+	font-size: 17px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+/*CSS for Gadgets*/
+
+.gad
+{
+	display: flex;
+	margin-top: 80px;
+}
+.gad1
+{
+	flex: 55%;
+}
+#gad div
+{
+	display: inline-block;
+	margin-left: 230px;
+}
+#gad div img
+{
+	height: 250px;
+	width: 250px;
+	padding: 15px;
+}
+.gad2
+{
+	flex: 45%;
+	margin-top: 80px;
+
+}
+.gad2 p
+{	
+	font-size: 17px;
+	text-align: justify;	
+	margin-top: 20px;
+	line-height: 23px;
+	width: 500px;
+}
+.gad2 button
+{
+	font-size: 15px;
+	margin: 40px;
+	padding: 8px;
+}
+/*CSS for contact*/
+
+.cont
+{
+	display: flex;
+}
+.cont div h4
+{
+	margin-top: 50px;
+	text-align: center;
+}
+.cont div i
+{
+	padding: 8px;
+	color: cyan;
+}
+.cont1
+{
+	flex: 40%;
+	background: darkslategray;
+	font-size: 30px;
+	color: white;
+}
+.cont1 div 
+{
+	text-align: center;
+}
+.cont1 i:hover
+{
+	transition: ease-in-out 1s;
+	transform:rotate(360deg);
+}
+.cont1 p
+{
+	display: inline-block;
+	color: cyan;
+	font-size: 15px;
+	margin-left: 55px;
+	line-height: 20px;
+}
+.cont2
+{
+	flex: 60%;
+}
+
+/*CSS for footer*/
+
+.foot
+{
+	background: black;
+	color: turquoise;
+	text-align: center;
+	height: 60px;
+}
+
+.finish
+{
+	text-decoration: none;
+	color: black;
+}
